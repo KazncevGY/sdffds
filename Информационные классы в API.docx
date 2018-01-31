@@ -1,0 +1,8 @@
+Авторизация
+[█(userId@email@password)┤		GET/POST методы, общий адрес
+Личные данные
+[█(userId@userName@town@phone)┤		GET/POST методы, общий адрес
+Запрос о товаре
+[█(ownerId@goodId@goodName@category@useTime@description@photo@status)┤		GET/POST методы, GET возможен на разные адреса 
+Запрос о цепочке
+[█(chainId@goodsNames[]@statuses[]@photos[]@ownersId[])┤	GET метод 
